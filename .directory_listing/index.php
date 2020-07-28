@@ -91,7 +91,7 @@ $_SITE->rawRequestUri = $_SITE->requestUri;
 
 if (isset($_POST['dirsize']))
 {
-    $bailTime = time() + 5;
+    $bailTime = time() + 1;
     $resp = array();
 
     foreach ($_POST['list'] as $name => $dir)

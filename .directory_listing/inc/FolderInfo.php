@@ -137,7 +137,7 @@ class FolderInfo {
 
 			if (!$isFile && isset($tagDef['rules'])) {
 				foreach ($tagDef['rules'] as $subItem => $subType) {
-					if (!file_exists($path . $subItem)) {
+					if (file_exists($path . $subItem) === (strpos($subType, '!') === 0)) {
 						continue 2;
 					}
 

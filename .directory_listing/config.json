@@ -1,7 +1,19 @@
 {
-    "drupal": {
+    "drupal7": {
         "rules": {
             "/misc/drupal.js": "file"
+        }
+    },
+    "drupal8": {
+        "rules": {
+            "/core/misc/drupal.js": "file",
+            "/core/misc/logo/": "!folder"
+        }
+    },
+    "drupal9": {
+        "rules": {
+            "/core/misc/drupal.js": "file",
+            "/core/misc/logo/": "folder"
         }
     },
     "wordpress": {
@@ -28,7 +40,9 @@
     },
     "cms": {
         "ifTags": [
-            "drupal",
+            "drupal7",
+            "drupal8",
+            "drupal9",
             "wordpress",
             "tumbleweed"
         ]

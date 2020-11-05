@@ -4,6 +4,7 @@ define('WEB_ROOT', __DIR__);
 
 global $_SITE;
 $_SITE = new stdClass();
+http_response_code(200);
 
 /*
 

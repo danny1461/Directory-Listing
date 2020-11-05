@@ -14,12 +14,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,100">
 	<link rel="stylesheet" href="<?= publicUrl('css/bootstrap.min.css') ?>">
 	<link rel="stylesheet" href="<?= publicUrl('css/font-awesome.min.css') ?>">
-	<link rel="stylesheet" href="<?= publicUrl('css/style.css') ?>">
-
-	<script type="text/javascript" src="<?= publicUrl('js/jquery-2.1.3.min.js') ?>"></script>
-	<script type="text/javascript" src="<?= publicUrl('js/bootstrap.min.js') ?>"></script>
-	<script type="text/javascript" src="<?= publicUrl('js/jquery.helpfulkeypress.min.js') ?>"></script>
-	<script type="text/javascript" src="<?= publicUrl('js/main.js') ?>"></script>
+	<link rel="stylesheet" href="<?= publicUrl('css/style.min.css') ?>">
 	<script>
 		var BASEURL = '<?= $scriptPath ?>';
 	</script>
